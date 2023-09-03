@@ -9,4 +9,4 @@ const map = function(array, callback) {
     results.push(callback(item));
   }
   return results;
-}
+};
