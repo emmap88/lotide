@@ -1,7 +1,7 @@
 {
   "name": "@emmap/lotide",
   "version": "1.0.0",
-  "main": "",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
