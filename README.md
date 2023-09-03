@@ -26,20 +26,20 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* assertArraysEqual: Assertion check for eqArrays
-* assertEqual: Uses strict comparison on two values
-* assertObjectsEqual: Assertion check for eqObjects
-* countLetters: Take in a string and then return a count of each of the letters in that string
-* countOnly: Takes in a collection of items and return counts for a specific subset of those items
-* eqArrays: Calls eqArrays and returns a message to console if arrays are the same
+* assertArraysEqual: Assertion check for eqArrays function.
+* assertEqual: Uses strict comparison on two values to test equality.
+* assertObjectsEqual: Assertion check for eqObjects function.
+* countLetters: Take in a string and then return a count of each of the letters in that string.
+* countOnly: Takes in a collection of items and return counts for a specific subset of those items.
+* eqArrays: Calls eqArrays and returns a message to console if arrays are the same.
 * eqObjects: Function that can compare two arrays for a perfect match.
-* findKey: checks if key exists in object
-* findKeyByValue: Takes in an object and a value. It will scan the object and return the first key which contains the given value. If no key with that given value is found, then it willreturn undefined.
-* flatten: Flattens an array
-* head: Returns the first element of an array
+* findKey: checks if key exists in object and returns value of that key.
+* findKeyByValue: Takes in an object and a value. It will scan the object and return the first key which contains the given value. If no key with that given value is found, then it will return undefined. 
+* flatten: Flattens an array of arrays into a single array.
+* head: Returns the first element of an array.
 * letterPositions: Return all the indices (zero-based positions) in the string where each character is found.
 * map: The map function will return a new array based on the results of the callback function.
 * middle: Returns the middle value of an array. If array is even, returns the middle two.
-* tail: Returns an array with the first element removed
+* tail: Returns an array with the first element removed.
 * takeUntil: The function will return a "slice of the array with elements taken from the beginning." It will keep going until the callback/predicate returns a truthy value.
-* without: Removes unwanted items from an array
+* without: Removes unwanted items from an array and returns a new array without those items.
