@@ -1,6 +1,6 @@
-const assertEqual = require("./assertEqual");
-const eqArrays = require("./eqArrays");
-const assertArraysEqual = require("./assertArraysEqual");
+// const assertEqual = require("./assertEqual");
+// const eqArrays = require("./eqArrays");
+// const assertArraysEqual = require("./assertArraysEqual");
 
 const middle = function(arr) {
   if (arr.length < 3) return [];
@@ -13,11 +13,11 @@ const middle = function(arr) {
 
 };
 
-console.log(middle([1]));
-console.log(middle([1, 2]));
-console.log(middle([1, 2, 3]));
-console.log(middle([1, 2, 3, 4, 5]));
-console.log(middle([1, 2, 3, 4]));
-console.log(middle([1, 2, 3, 4, 5, 6]));
-
 module.exports = middle;
+
+// console.log(middle([1]));
+// console.log(middle([1, 2]));
+// console.log(middle([1, 2, 3]));
+// console.log(middle([1, 2, 3, 4, 5]));
+// console.log(middle([1, 2, 3, 4]));
+// console.log(middle([1, 2, 3, 4, 5, 6]));
