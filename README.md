@@ -33,7 +33,7 @@ The following functions are currently implemented:
 * countOnly: Takes in a collection of items and return counts for a specific subset of those items.
 * eqArrays: Calls eqArrays and returns a message to console if arrays are the same.
 * eqObjects: Function that can compare two arrays for a perfect match.
-* findKey: checks if key exists in object and returns value of that key.
+* findKey: Checks if key exists in object and returns value of that key.
 * findKeyByValue: Takes in an object and a value. It will scan the object and return the first key which contains the given value. If no key with that given value is found, then it will return undefined. 
 * flatten: Flattens an array of arrays into a single array.
 * head: Returns the first element of an array.
