@@ -15,6 +15,6 @@ const bestTVShowsByGenre = {
 };
 const key = findKeyByValue(bestTVShowsByGenre, "The Wire");
 
-console.log(bestTVShowsByGenre[key]); // "The Wire" 
+console.log(bestTVShowsByGenre[key]); // "The Wire"
 console.log(key);
 
