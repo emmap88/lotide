@@ -1,5 +1,5 @@
-const flatten = function (arr) {
-  // newArray empty array called is initialized 
+const flatten = function(arr) {
+  // newArray empty array called is initialized
   let newArray = [];
   //for loop to iterarte through each in arr
   for (let i = 0; i < arr.length; i++) {
@@ -11,7 +11,7 @@ const flatten = function (arr) {
       newArray = newArray.concat(arr[i]);
     }
   }
-  // return function 
+  // return function
   return newArray;
 };
 
