@@ -10,7 +10,7 @@ const assertObjectsEqual = function(actual, expected) {
   } else {
     console.log("🛑🛑🛑 Assertion Failed: ", actual, "!==", inspect(expected));
   }
-}
+};
 
 const ab = {
   a: "1",
@@ -20,7 +20,7 @@ const ab = {
 const ba = {
   b: "2",
   a: "1"
-}
+};
 
 assertObjectsEqual(ab, ba);
 
