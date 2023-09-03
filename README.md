@@ -26,6 +26,19 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `function1(...)`: description
-* `function2(...)`: description
-* `function3(...)`: description
+* assertArraysEqual(...): assertion check for eqArrays
+* assertObjectsEqual(...): assertion check for eqObjects
+* assertEqual(...): uses strict comparison on two values
+* countLetters(...): take in a string and then return a count of each of the letters in that string
+* countOnly(...): takes in a collection of items and return counts for a specific subset of those items
+* eqArrays(...): calls eqArrays and returns a message to console if arrays are the same
+* eqObjects(...): function that can compare two arrays for a perfect match.
+* findKey(...): checks if key exists in object
+* findKeyByValue(...): which takes in an object and a value. It will scan the object and return the first key which contains the given value. If no key with that given value is found, then it willreturn undefined.
+* head(...): returns the first element of an array
+* letterPositions(...): return all the indices (zero-based positions) in the string where each character is found.
+* map(...): The map function will return a new array based on the results of the callback function.
+* middle(...): Returns the middle value of an array. If array is even, returns the middle two.
+* tail(...): Returns an array with the first element removed
+* takeUntil(...): The function will return a "slice of the array with elements taken from the beginning." It * will keep going until the callback/predicate returns a truthy value.
+* without(...): Removes unwanted items from an array
