@@ -20,15 +20,4 @@ const eqObjects = function(obj1, obj2) {
   }
   return true;
 };
-
 module.exports = eqObjects;
-/*
-const multiColorShirtObject = { colors: ["red", "blue"], size: "medium" };
-const anotherMultiColorShirtObject = { size: "medium", colors: ["red", "blue"] };
-eqObjects(multiColorShirtObject, anotherMultiColorShirtObject); // => true
-
-const longSleeveMultiColorShirtObject = { size: "medium", colors: ["red", "blue"], sleeveLength: "long" };
-eqObjects(multiColorShirtObject, longSleeveMultiColorShirtObject); // => false
-console.log(eqObjects(multiColorShirtObject, anotherMultiColorShirtObject));
-console.log(eqObjects(multiColorShirtObject, longSleeveMultiColorShirtObject));
-*/
