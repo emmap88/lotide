@@ -41,5 +41,5 @@ The following functions are currently implemented:
 * map: The map function will return a new array based on the results of the callback function.
 * middle: Returns the middle value of an array. If array is even, returns the middle two.
 * tail: Returns an array with the first element removed.
-* takeUntil: The function will return a "slice of the array with elements taken from the beginning." It will keep going until the callback/predicate returns a truthy value.
+* takeUntil: Takes all the values out of an array or string until specified condition is met.
 * without: Removes unwanted items from an array and returns a new array without those items.
