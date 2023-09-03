@@ -27,8 +27,8 @@ This project was created and published by me as part of my learnings at Lighthou
 The following functions are currently implemented:
 
 * assertArraysEqual(...): assertion check for eqArrays
-* assertObjectsEqual(...): assertion check for eqObjects
 * assertEqual(...): uses strict comparison on two values
+* assertObjectsEqual(...): assertion check for eqObjects
 * countLetters(...): take in a string and then return a count of each of the letters in that string
 * countOnly(...): takes in a collection of items and return counts for a specific subset of those items
 * eqArrays(...): calls eqArrays and returns a message to console if arrays are the same
@@ -40,5 +40,5 @@ The following functions are currently implemented:
 * map(...): The map function will return a new array based on the results of the callback function.
 * middle(...): Returns the middle value of an array. If array is even, returns the middle two.
 * tail(...): Returns an array with the first element removed
-* takeUntil(...): The function will return a "slice of the array with elements taken from the beginning." It * will keep going until the callback/predicate returns a truthy value.
+* takeUntil(...): The function will return a "slice of the array with elements taken from the beginning." It will keep going until the callback/predicate returns a truthy value.
 * without(...): Removes unwanted items from an array
