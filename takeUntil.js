@@ -1,15 +1,15 @@
 const takeUntil = function(array, callback) {
-  newArray = [];             
-  for (const i in array) {  
-    if (callback(array[i])) { 
-      break; 
-    } else { 
+  let newArray = [];
+  for (const i in array) {
+    if (callback(array[i])) {
+      break;
+    } else {
       newArray.push(array[i]);
     }
 
   }
   return newArray;
-}
+};
 
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 const results1 = takeUntil(data1, x => x < 0);
