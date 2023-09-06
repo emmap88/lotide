@@ -1,14 +1,19 @@
-const countLetter = function(string) {
+const countLetter = function (string) {
+  // create result object
   const result = {};
+  // loop through string
   for (let letter of string) {
-    if (letter !== ' ') {
+    // if letter is not a space
+    if (letter !== " ") {
       if (result[letter]) {
-        result[letter] += 1;
+        // if letter is already in result
+        result[letter] += 1; // add 1 to count
       } else {
-        result[letter] = 1;
+        result[letter] = 1; // if letter is not in result, add it
       }
     }
   }
-  return result;
+  return result; // return result object
 };
+// Export the function
 module.exports = countLetter;
