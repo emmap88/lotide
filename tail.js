@@ -1,6 +1,5 @@
 const tail = (newArr) => {
-  // Use .slice() to return a new array
-  // containing all elements except the first
+  // Use .slice() to return a new array and containing all elements except the first
   // Slice from index 1 to the end
   {
     return newArr.slice(1);
